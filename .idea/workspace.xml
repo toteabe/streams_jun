@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edb1dfdc-a7b2-4f83-84bf-765af060388d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate.reveng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/streams/Cliente.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/streams/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/streams/ClienteHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/streams/Comercial.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/streams/Comercial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/streams/ComercialHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/streams/Pedido.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/streams/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/streams/PedidoHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/tests/StreamsTest.java" afterDir="false" />
+    <list default="true" id="edb1dfdc-a7b2-4f83-84bf-765af060388d" name="Changes" comment="Inicial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +29,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/josemanuel/IdeaProjects/stream",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -55,6 +47,29 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/org/iesvdm" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="StreamsTest.testSkeletonCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.tests.StreamsTest" />
+      <option name="METHOD_NAME" value="testSkeletonCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StreamsTest.testSkeletonCliente" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -71,11 +86,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703153495648</updated>
-      <workItem from="1703153496669" duration="118000" />
+      <workItem from="1703153496669" duration="892000" />
     </task>
+    <task id="LOCAL-00001" summary="Inicial">
+      <option name="closed" value="true" />
+      <created>1703153699527</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703153699527</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicial" />
   </component>
 </project>
